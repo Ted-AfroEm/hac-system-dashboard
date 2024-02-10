@@ -86,3 +86,17 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type Person = {
+  id: string;
+  first_name: string;
+  middle_name: string;
+  last_name: string;
+  phone_number: string;
+  sex: string;
+  email: string;
+  date_of_birth: string;
+  status: 'pending' | 'approved' | 'rejected';
+  created_at: string;
+  updated_at: string;
+};

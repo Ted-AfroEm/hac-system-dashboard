@@ -180,9 +180,61 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
+const Peoples = [
+  {
+    id: 1,
+    firstName: 'John',
+    middleName: 'William',
+    lastName: 'Doe',
+    phoneNumber: '0911000000',
+    sex: 'M',
+    email: 'john@example.com',
+    dateOfBirth: '1989-12-31T00:00:00.000Z',
+    created_at: '2024-02-07T14:46:21.543Z',
+    updated_at: '2024-02-07T14:46:21.543Z',
+  },
+  {
+    id: 2,
+    firstName: 'Jane',
+    middleName: 'Elizabeth',
+    lastName: 'Smith',
+    phoneNumber: '0912000000',
+    sex: 'F',
+    email: 'jane@example.com',
+    dateOfBirth: '1995-05-14T00:00:00.000Z',
+    created_at: '2024-02-07T14:46:21.543Z',
+    updated_at: '2024-02-07T14:46:21.543Z',
+  },
+  {
+    id: 3,
+    firstName: 'Teddy',
+    middleName: 'William',
+    lastName: 'Doe',
+    phoneNumber: '0913000000',
+    sex: 'M',
+    email: 'teddy@example.com',
+    dateOfBirth: '1990-01-01T00:00:00.000Z',
+    created_at: '2024-02-07T14:46:21.543Z',
+    updated_at: '2024-02-07T14:46:21.543Z',
+  },
+  {
+    id: 4,
+    firstName: 'Asmerom',
+    middleName: 'Kahsu',
+    lastName: 'Doe',
+    phoneNumber: '0974437960',
+    sex: 'M',
+    email: 'asmerom@example.com',
+    dateOfBirth: '1990-01-01T00:00:00.000Z',
+    created_at: '2024-02-07T14:46:21.543Z',
+    updated_at: '2024-02-07T14:46:21.543Z',
+  },
+];
+
 module.exports = {
   users,
   customers,
   invoices,
   revenue,
+  Peoples,
 };
